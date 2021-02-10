@@ -67,7 +67,7 @@ public class Main {
                     } else
                         break;
                     drawField();
-                    isWinner = findWinnerMy2();
+                    isWinner = findWinnerMy();
                 } while (!isWinner);
                 if (isWinner) {
                     if (stepCounter % 2 == 1) {
